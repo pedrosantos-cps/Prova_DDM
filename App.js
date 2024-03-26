@@ -6,10 +6,10 @@ import Kauan from './src/components/Kauan/index.js'
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Pedro></Pedro>
-      <Kauan></Kauan>
-      <StatusBar style="auto" />
+    <View style={styles.container}> 
+      <Pedro/>
+      <Kauan/> 
+    <StatusBar style="auto" />
     </View>
   );
 }
